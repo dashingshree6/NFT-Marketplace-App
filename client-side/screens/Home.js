@@ -3,7 +3,7 @@ import { View, SafeAreaView, FlatList } from "react-native";
 
 const Home = () => {
     return (
-        <View>Home Page</View>        
+        <View>Home Page Layout</View>        
     )
 }
 export default Home;
