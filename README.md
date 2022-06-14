@@ -2,4 +2,4 @@
 
 ## It is purely frontend application created with the help of latest technologies.
 ## Technologies used :
-### React-Native (2) React-Navigation
+### React-Native, React-Navigation
