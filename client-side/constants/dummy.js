@@ -1,5 +1,6 @@
 import assets from "./assets";
 
+//Fake data
 const NFTData = [
   {
     id: "NFT-01",
