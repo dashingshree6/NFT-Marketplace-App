@@ -56,7 +56,7 @@ const NFTData = [
     id: "NFT-023",
     name: "Blue Coins",
     creator: "Silva Nurhaliza",
-    price: 7.25,
+    price: 9.25,
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
     image: assets.nft02,
