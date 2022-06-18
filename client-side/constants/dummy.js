@@ -54,7 +54,7 @@ const NFTData = [
   },
   {
     id: "NFT-023",
-    name: "Green Coins",
+    name: "Blue Coins",
     creator: "Siti Nurhaliza",
     price: 7.25,
     description:
