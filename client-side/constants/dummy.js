@@ -53,6 +53,24 @@ const NFTData = [
     ],
   },
   {
+    id: "NFT-023",
+    name: "Green Coins",
+    creator: "Siti Nurhaliza",
+    price: 7.25,
+    description:
+      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
+    image: assets.nft02,
+    bids: [
+      {
+        id: "BID-21",
+        name: "Jessica Tan",
+        price: 7.05,
+        image: assets.person04,
+        date: "December 12, 2019 at 12:10 PM",
+      },
+    ],
+  },
+  {
     id: "NFT-03",
     name: "NFT coins race",
     creator: "Elisabeth aho",
