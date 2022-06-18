@@ -66,7 +66,7 @@ const NFTData = [
         name: "John Tan",
         price: 80.05,
         image: assets.person04,
-        date: "December 12, 2019 at 12:10 PM",
+        date: "October 2, 2019 at 12:10 PM",
       },
     ],
   },
