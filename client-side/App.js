@@ -4,6 +4,7 @@ import { useFonts } from 'expo-font';
 import Home from './screens/Home';
 import Details from './screens/Details';
 
+//For navigation purpose
 const Stack = createStackNavigator();
 
 const theme = {
