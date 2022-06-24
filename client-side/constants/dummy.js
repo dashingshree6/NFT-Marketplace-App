@@ -210,7 +210,7 @@ const NFTData = [
     {
         id: "BID-651",
         name: "Jessica Rel De",
-        price: 20.25,
+        price: 250.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
