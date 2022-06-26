@@ -73,3 +73,11 @@ const DetailsDesc = ({ data }) => {
               {readMore ? " Show Less" : " Read More"}
             </Text>
           </Text>
+
+          </View>
+      </View>
+    </>
+  );
+};
+
+export default DetailsDesc;
