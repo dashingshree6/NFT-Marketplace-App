@@ -38,3 +38,38 @@ const DetailsDesc = ({ data }) => {
         >
           Description
         </Text>
+
+        <View
+          style={{
+            marginTop: SIZES.base,
+          }}
+        >
+          <Text
+            style={{
+              color: COLORS.secondary,
+              fontSize: SIZES.small,
+              fontFamily: FONTS.regular,
+              lineHeight: SIZES.large,
+            }}
+          >
+            {text}
+            {!readMore && "..."}
+            <Text
+              style={{
+                color: COLORS.primary,
+                fontSize: SIZES.small,
+                fontFamily: FONTS.semiBold,
+              }}
+              onPress={() => {
+                if (!readMore) {
+                  setText(data.description);
+                  setReadMore(true);
+                } else {
+                  setText(data.description.slice(0, 100));
+                  setReadMore(false);
+                }
+              }}
+            >
+              {readMore ? " Show Less" : " Read More"}
+            </Text>
+          </Text>
