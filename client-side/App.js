@@ -4,6 +4,7 @@ import { useFonts } from 'expo-font';
 import Home from './screens/Home';
 import Details from './screens/Details';
 
+//For navigation purpose
 const Stack = createStackNavigator();
 
 const theme = {
@@ -16,6 +17,7 @@ const theme = {
 
 const App = () => {
 
+  //Imported fonts
   const [loaded] = useFonts({
     InterBold: require("./assets/fonts/Inter-Bold.ttf"),
     InterSemiBold: require("./assets/fonts/Inter-SemiBold.ttf"),
@@ -40,4 +42,3 @@ const App = () => {
 }
 
 export default App;
-

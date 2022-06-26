@@ -1,5 +1,6 @@
 import assets from "./assets";
 
+//Fake data
 const NFTData = [
   {
     id: "NFT-01",
@@ -48,6 +49,24 @@ const NFTData = [
         price: 7.05,
         image: assets.person04,
         date: "December 12, 2019 at 12:10 PM",
+      },
+    ],
+  },
+  {
+    id: "NFT-023",
+    name: "Blue Coins",
+    creator: "Silva Nurhaliza",
+    price: 9.25,
+    description:
+      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
+    image: assets.nft02,
+    bids: [
+      {
+        id: "BID-21",
+        name: "John Tan",
+        price: 80.05,
+        image: assets.person04,
+        date: "October 2, 2019 at 12:10 PM",
       },
     ],
   },
@@ -187,7 +206,15 @@ const NFTData = [
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Ullamcorper platea penatibus ornare egestas nulla ligula hendrerit nisl suscipit sociosqu maximus, tincidunt aptent habitant purus pharetra ultrices dapibus laoreet nisi lacinia. Porta malesuada netus vel sapien conubia porttitor aliquam ut pretium ante litora molestie senectus magna egestas sociosqu, eget aliquet fames pharetra felis posuere varius fringilla quisque in arcu montes eu ullamcorper.",
     image: assets.nft07,
-    bids: [],
+    bids: [
+    {
+        id: "BID-651",
+        name: "Jessica Rel De",
+        price: 250.25,
+        image: assets.person02,
+        date: "December 02, 2019 at 02:10 PM",
+      },
+    ],
   },
 ];
 
