@@ -8,9 +8,14 @@ const Home = () => {
      const [nftData, setNftData] = useState(NFTData);
      
      const handleSearch = (value) => {
-    if (value.length === 0) {
-      setNftData(NFTData);
-    }
+        if (value.length === 0) {
+        setNftData(NFTData);
+     }
+          
+     const filteredData = NFTData.filter((item) =>
+      item.name.toLowerCase().includes(value.toLowerCase())
+    );
+     
           
     return (
         <View>Home Page </View>        
