@@ -5,6 +5,7 @@ import { NFTCard, HomeHeader, FocusedStatusBar } from "../components";
 import { COLORS, NFTData } from "../constants";
 
 const Home = () => {
+     const [nftData, setNftData] = useState(NFTData);
     return (
         <View>Home Page </View>        
     )
