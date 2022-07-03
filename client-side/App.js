@@ -8,11 +8,11 @@ import Details from './screens/Details';
 const Stack = createStackNavigator();
 
 const theme = {
-  ...DefaultTheme,
-  colors: {
-    ...DefaultTheme.colors,
-    background: 'transparent' 
-  }
+//   ...DefaultTheme,
+//   colors: {
+//     ...DefaultTheme.colors,
+//     background: 'transparent' 
+//   }
 }
 
 const App = () => {
