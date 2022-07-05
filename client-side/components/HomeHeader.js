@@ -11,6 +11,14 @@ const HomeHeader = ({ onSearch }) => {
         padding: SIZES.fonts
       }}
     >
+      <View
+        style={{
+          flexDirection: "row",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+      </View>
     </View>
   )
 }
