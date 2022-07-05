@@ -18,6 +18,11 @@ const HomeHeader = ({ onSearch }) => {
           alignItems: "center",
         }}
       >
+         <Image
+           source={assets.logo}
+           resizeMode="contain"
+           style={{ width: 90, height: 25 }}
+         />
       </View>
     </View>
   )
