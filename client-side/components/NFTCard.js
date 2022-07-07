@@ -19,3 +19,9 @@ const NFTCard = ({ data }) => {
         ...SHADOWS.dark,
       }}
     >
+       <View
+        style={{
+          width: "100%",
+          height: 250,
+        }}
+      >
