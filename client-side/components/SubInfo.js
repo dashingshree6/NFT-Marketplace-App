@@ -5,6 +5,13 @@ import { SIZES, FONTS, COLORS, SHADOWS, assets } from "../constants";
 export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
     return (
         <View>
+            <Text
+            style={{
+                fontFamily: FONTS.semiBold,
+                fontSize: titleSize,
+                color: COLORS.primary
+            }}
+            >{title}</Text>
             
         </View>
     )
