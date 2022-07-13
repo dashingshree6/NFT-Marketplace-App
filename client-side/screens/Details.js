@@ -27,4 +27,13 @@ const DetailsHeader = ({ data, navigation }) => (
   </View>
 );
 
-export default Home;
+const Details = ({ route, navigation }) => {
+  const { data } = route.params;
+
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <FocusedStatusBar
+        barStyle="dark-content"
+        backgroundColor="transparent"
+        translucent={true}
+      />
