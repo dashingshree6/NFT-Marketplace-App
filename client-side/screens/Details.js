@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import { View, SafeAreaView, FlatList } from "react-native";
+import React from "react";
+import { View, Text, SafeAreaView, Image, StatusBar, FlatList } from "react-native";
 
 //Screen layout 1
 const Home = () => {
